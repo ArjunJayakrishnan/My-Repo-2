@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://arjunjayakrishnan.github.io/My-Repo-2/)
+- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-2/](https://arjunjayakrishnan.github.io/My-Repo-2/)
 
 ### Built with
 
