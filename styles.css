@@ -27,7 +27,7 @@ body {
 .img-div {
 	width: 50%;
 	flex: 1;
-	background-image: url("images/image-product-desktop.jpg");
+	background-image: url("image-product-desktop.jpg");
 	background-size: cover;
 	border-radius: 5px 0 0 5px;
 }
@@ -147,6 +147,6 @@ button {
 		width: 90%;
 	}
 	.img-div {
-		background-image: url("images/image-product-mobile.jpg");
+		background-image: url("image-product-mobile.jpg");
 	}
 }
