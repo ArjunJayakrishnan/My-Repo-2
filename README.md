@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://drive.google.com/file/d/1CdN6eDQ_QmZi3laJGQu0Wh8XIUVCOBP2/view?usp=share_link)
+[https://drive.google.com/file/d/1CdN6eDQ_QmZi3laJGQu0Wh8XIUVCOBP2/view?usp=share_link](https://drive.google.com/file/d/1CdN6eDQ_QmZi3laJGQu0Wh8XIUVCOBP2/view?usp=share_link)
 
 ### Links
 
