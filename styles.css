@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-color: hsl(30, 38%, 92%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	/* height: 75%; */
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+.img-div {
+	width: 50%;
+	flex: 1;
+	background-image: url("images/image-product-desktop.jpg");
+	background-size: cover;
+	border-radius: 5px 0 0 5px;
+}
+.writing {
+	border-radius: 0 5px 5px 0;
+	width: 50%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4rem;
+	padding: 2.8rem;
+	background-color: #fff;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.writing .writing p:nth-child(3) {
+	line-height: 1.6;
+}
+
+.writing p:first-of-type:not(.prices p) {
+	letter-spacing: 3px;
+	color: grey;
+}
+.writing p:not(.prices p) .price-old {
+	color: grey;
+}
+.writing h1 {
+	line-height: 0.9;
+}
+.prices {
+	font-size: 3.2rem;
+	color: hsl(158, 36%, 37%);
+	font-family: "Fraunces", serif;
+	/* Flex */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1.2rem;
+}
+
+.price-old {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
+	text-decoration: line-through;
+}
+
+button {
+	font-size: 1.2rem;
+	font-weight: 700;
+	background-color: hsl(158, 36%, 37%);
+	color: #fff;
+	padding: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	/* flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.2rem;
+}
+
+/* Media querries */
+@media (max-width: 800px) {
+	html {
+		font-size: 8px;
+	}
+	.container {
+		width: 70%;
+	}
+}
+@media (max-width: 545px) {
+	html {
+		font-size: 10px;
+	}
+	.container {
+		height: 55rem;
+		width: 75%;
+		flex-direction: column;
+	}
+	.img-div {
+		height: 40%;
+		width: 100%;
+		border-radius: 5px 5px 0 0;
+	}
+	.writing {
+		height: 60%;
+		width: 100%;
+		padding: 0 2.4rem;
+		border-radius: 0 0 5px 5px;
+		justify-content: space-between;
+		gap: 0;
+	}
+	.writing p:nth-child(3) {
+		line-height: 1.6;
+	}
+	.writing p:first-of-type:not(.prices p) {
+		margin-top: 2.4rem;
+	}
+	.prices {
+		justify-content: flex-start;
+	}
+	button {
+		font-size: 1.6rem;
+		padding: 1.2rem;
+		display: block;
+		text-align: center;
+		margin-bottom: 2.4rem;
+	}
+}
+@media (max-width: 470px) {
+	html {
+		font-size: 10px;
+	}
+	.container {
+		height: 60rem;
+		width: 90%;
+	}
+	.img-div {
+		background-image: url("images/image-product-mobile.jpg");
+	}
+}
