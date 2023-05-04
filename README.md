@@ -35,8 +35,6 @@ Users should be able to:
 - Flexbox
 - Desktop-first workflow using media querries
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 We can create an empty div element and fill it with image using css. Till now i always added the image inside the html file, then set its size accordingly using css.
