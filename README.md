@@ -1,6 +1,8 @@
-# Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+### Links
+
+- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-2/](https://arjunjayakrishnan.github.io/My-Repo-2/)
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-2](https://github.com/ArjunJayakrishnan/My-Repo-2)
 
 ## Table of contents
 
@@ -10,7 +12,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -22,11 +23,6 @@ Users should be able to:
 ### Screenshot
 
 [https://drive.google.com/file/d/1CdN6eDQ_QmZi3laJGQu0Wh8XIUVCOBP2/view?usp=share_link](https://drive.google.com/file/d/1CdN6eDQ_QmZi3laJGQu0Wh8XIUVCOBP2/view?usp=share_link)
-
-### Links
-
-- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-2](https://github.com/ArjunJayakrishnan/My-Repo-2)
-- Live Site URL: [https://arjunjayakrishnan.github.io/My-Repo-2/](https://arjunjayakrishnan.github.io/My-Repo-2/)
 
 ### Built with
 
@@ -42,7 +38,3 @@ We can create an empty div element and fill it with image using css. Till now i 
 ## Author
 
 - Frontend Mentor - [@ArjunJayakrishnan](https://www.frontendmentor.io/profile/ArjunJayakrishnan)
-
-## Acknowledgments
-
-I thank frontend mentor for giving me this challenge.
